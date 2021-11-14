@@ -234,7 +234,7 @@ section.left1{Width:50%;
 
 h1.aboume2{
     text-align: left;
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: bold;
 	color:#abaaaa;
 	margin: 200px 20px;
@@ -277,7 +277,7 @@ main.artworks{
 
 section.graphicdesign ul
 {
-    width:95%;
+    width:100%;
     margin:auto auto auto auto;
     list-style-type: none;
 	display: flex;
