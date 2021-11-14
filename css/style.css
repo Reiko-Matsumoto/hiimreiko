@@ -19,25 +19,9 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-	font-family: ;
 	background-image:url(../images/background.jpg);
 	
 	}
-
-body.home{
-		background-image:url(../images/background.jpg);
-}
-body.aboutme{
-		background-image:url(../images/visual/background2.jpg);
-}
-body.artworks{
-		background-image:url(../images/visual/background3.jpg);
-}
-
-body.contact{
-		background-image:url(../images/visual/background5.jpg);
-}
-
 
 
 a:hover{
