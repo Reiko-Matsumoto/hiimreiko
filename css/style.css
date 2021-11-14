@@ -277,8 +277,8 @@ main.artworks{
 
 section.graphicdesign ul
 {
-    width:100%;
-    margin:20px auto 50px auto;
+    width:95%;
+    margin:auto auto auto auto;
     list-style-type: none;
 	display: flex;
 	flex-wrap:wrap;
