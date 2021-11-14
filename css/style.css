@@ -250,7 +250,7 @@ h1.aboume2{
 	
 main.artworks{
     width:100%;
-    heighten:445px;
+    height:445px;
 	background-color:rgba(255,255,255,0.60);
 	box-shadow: 0 0 100px #6b6b6b;
 	text-align: center;
@@ -260,8 +260,8 @@ main.artworks{
 
 section.graphicdesign ul
 {
-    width:95%;
-    margin:auto auto auto auto;
+    width:10"%;
+    margin:10px 10px 10px 10px;
     list-style-type: none;
 	display: flex;
 	flex-wrap:wrap;
@@ -374,22 +374,5 @@ p.footer{
 R
 }
 		
-
-
-
-
-ul#gallery li{
-    margin: 0 0 60px 0;
-}
-
-
-p.cap{
-    text-align: center;
-    margin: 5px 0 0 0;
-}
-
-
-
-
 
 
