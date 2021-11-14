@@ -307,7 +307,7 @@ justify-content: space-between;
 
 main.contact{
     width:100%;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 300px auto;
 	background-color:rgba(255,255,255,0.60);
 	box-shadow: 0 0 100px #666666;
 	padding:30px 0 30px 0;
