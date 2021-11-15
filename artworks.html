@@ -2,23 +2,47 @@
 <html class="toppage">
 <head>
 <meta charset="utf-8">
- 
+	
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
- 
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>Hi!!I'M REIKO｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
 <script>
 $(function() {
 var topBtn = $('#jump-top');
 topBtn.hide();
 //スクロールが100に達したらボタン表示
 $(window).scroll(function () {
-if ($(this).scrollTop() > 1100) {
+if ($(this).scrollTop() > 500) {
 topBtn.fadeIn();
 } else {
 topBtn.fadeOut();
 }
-});
+});c
 //スクロールしてトップ
 topBtn.click(function () {
 $('body,html').animate({
@@ -29,18 +53,12 @@ return false;
 });
 </script>
 
- 
-<title>Hi!!I'M REIKO｜HOME｜HOME</title>
-<link href="css/reset.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/lightbox.css" rel="stylesheet">
-<script type="text/javascript" src="js/lightbox.min.js"></script>
+	
 </head>
-
-<p id="jump-top"><a href="illustration.html">☝TOP</a></p>
-
+	
+<body>
 <header>
-<a href="index.html"><img src="images/logo.png" alt="MR" class="logo"></a>
+<a href="index.html"><img src="images/logo.png" alt="MRのロゴマーク" class="logo"></a>
 <nav>
 <ul>
 <li><a href="aboutme.html">ABOUT ME</a></li>
@@ -50,6 +68,7 @@ return false;
 </nav>
 	
 </header>
+
 
 <body>	
 <div id="aboutme">
